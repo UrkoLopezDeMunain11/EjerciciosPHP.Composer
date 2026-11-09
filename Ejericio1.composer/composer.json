@@ -1,0 +1,17 @@
+{
+    "name": "142ga08/ejercicio1",
+    "description": "Ejericico1 de compouser:Muestra 100.000 números aleatorios y mide el tiempo",
+    "type": "project",
+    "require": {
+        "phpunit/php-timer": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "urko"
+        }
+    ],
+    "minimum-stability": "stable"
+
+    
+}
