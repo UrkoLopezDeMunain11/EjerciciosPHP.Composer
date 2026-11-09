@@ -1,6 +1,6 @@
 <?php
 
-    require __DIR__ '/vendor/autoload.php';
+    require __DIR__ . '/vendor/autoload.php';
 
     use SebastianBergmann\Timer\Timer; // la libreria donde esta la clase time , el aoutor q la hizo, nmbre de lalibreria y la clase(imortar la clase)
 
@@ -10,7 +10,8 @@
     $timer->start(); // lo arranca
 
     for ($i = 1; $i <= TOTAL_NUMEROS; $i++) {
-        echo random_int(1, 1000000), PHP_EOL; // PHP_EOL salto de linea para que cada numero salgaen una linea distinta , no es necesario ponerlo, sin eso esta bie tambein
+        echo random_int(1, 1000000); 
+        echo  PHP_EOL; // PHP_EOL salto de linea para que cada numero salgaen una linea distinta , no es necesario ponerlo, sin eso esta bie tambein
     }
 
     $duracion = $timer->stop(); // pararlo
