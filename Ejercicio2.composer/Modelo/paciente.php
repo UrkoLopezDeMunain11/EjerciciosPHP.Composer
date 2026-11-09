@@ -11,9 +11,10 @@
         public $nombre;
         public $apellido;
         public $edad;
+        public $logger;
 
         // el contructor 
-        public function __constructor($nombre, $apellido, $edad){
+        public function __construct($nombre, $apellido, $edad){
 
             $this -> nombre = $nombre;
             $this -> apellido = $apellido;
