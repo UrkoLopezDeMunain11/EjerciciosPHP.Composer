@@ -1,0 +1,19 @@
+{
+    "name": "142ga08/ejercicio2",
+    "description": "Ejercicio 2 de composer: logs con Monolog",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^3.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Egibide\\": "Modelo/"
+        }
+    },
+    "authors": [
+        {
+            "name": "urko"
+        }
+    ],
+    "minimum-stability": "stable"
+}
