@@ -1,0 +1,21 @@
+{
+    "name": "142ga08/ejericio3",
+    "description": "ejericio 3 de composer",
+    "type": "proyect",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Egibide\\": "Modelo" 
+        }
+    },
+    "authors": [
+        {
+            "name": "urko"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "fekerphp/faker": "^1.24",
+        "monolog/monolog": "^3.12"
+    }
+}
